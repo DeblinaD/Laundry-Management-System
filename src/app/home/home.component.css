@@ -1,0 +1,48 @@
+.header{
+    background-color: tan;
+    color: white;
+    text-align: center;
+    padding: 6px;
+}
+.logbut{
+    display: flex;   
+}
+.flex{
+    display: flex;
+}
+.flex>div{
+    margin: 10px;
+}
+.navigation{
+    line-height: 70px;
+    background-color: cadetblue;
+    height: 500px;
+    width: 260px;
+    float: left;
+    padding: 5 px;
+}
+.section{
+    color: cadetblue;
+    text-align:center;
+    width: 100%;
+    background-color: orange;
+}
+.foot{
+    color: olivedrab;
+    background-color: aquamarine;
+    text-align: center;
+    height: 50px;
+    clear: both;
+}
+#topname{
+    font-size: 50px;
+    margin-top: 1px;
+}
+#service{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.full {
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>log in</title>
+  </head>
+  <body>
+    <!-- <img src ="loginbackground.jpg"> -->
+  <div class = "background-image">
+    <div class = "name">
+       <h1> <pre>
+          HAPPY CLOTHES 
+        Laundry Services </pre>
+      </h1>
+    </div>
+    <div class="login-box">
+      <h2>Login</h2>
+      <form>
+        <div class="user-box">
+          <input [(ngModel)] = "userId" type="text" name="userId" required=""  />
+          <label>Username</label>
+        </div>
+        <div class="user-box">
+          <input [(ngModel)] = "password" type="password" name="password" required="" />
+          <label>Password</label>
+        </div>
+        <button (click) = "signIn()">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+  </body>
+</html>
